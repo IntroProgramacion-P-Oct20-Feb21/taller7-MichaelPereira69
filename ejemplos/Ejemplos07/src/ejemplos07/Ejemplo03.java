@@ -19,7 +19,8 @@ public class Ejemplo03 {
         
         do {
             System.out.println("Desea salir del ciclo; digite: si");
-            salir = entrada.nextLine();
+            salir = entrada.nextLine();//si Si SI 
+            salir = salir.toLowerCase();//ciempre la cadena la ago  minuscula  
             if(salir.equals("si")){
                 bandera = false;
             }
